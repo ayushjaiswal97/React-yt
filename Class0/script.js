@@ -1,3 +1,4 @@
-import {user} from './app.js'
+import user from './app.js';
+import { age, skills } from './app.js'
 
-console.log(user);
+console.log(user,age,skills);
