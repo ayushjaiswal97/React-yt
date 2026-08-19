@@ -1,4 +1,6 @@
 import React from 'react'
+import Card from './components/Card';
+import Navbar from './components/Navbar';
 
 const App = () => {
   
@@ -7,8 +9,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>Hello guys, I am {user}</h1>
-      <h1>And I am {age} years old.</h1>
+      <Navbar />
+      <Card />
     </div>
   )
 }
