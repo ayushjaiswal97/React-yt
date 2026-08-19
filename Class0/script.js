@@ -1,5 +1,3 @@
-const h1 = document.createElement('h1');
+import a from './app.js';
 
-h1.innerHTML = "Hello from JavaScript";
-
-document.body.appendChild(h1)
+console.log(a);
