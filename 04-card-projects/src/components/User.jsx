@@ -1,7 +1,7 @@
 const User = (props) => {
   console.log(props);
 
-  return <div style={{ color: "white" }}>{props.name}</div>;
+  return <div style={{ color: "white" }}>{props}</div>;
 };
 
 export default User;

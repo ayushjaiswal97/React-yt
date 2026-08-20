@@ -7,8 +7,9 @@ const App = () => {
 
   return (
     <div className="parent">
-       <User name={arr[0]}/>
-       <User name={arr[1]}/>
+       {arr.map((elem)=>{
+        return <h1>{elem}</h1>
+       })}
     </div>
   );
 };
